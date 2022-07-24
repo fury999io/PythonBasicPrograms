@@ -10,6 +10,6 @@ elif mont%2==0:
 else:
     dleft=31-dat
 
-print()
+print() 
 
 print("The month has", str(dleft), "days remaining")
