@@ -1,11 +1,7 @@
-#!/bin/python3
-
-num = int(input("Input a number\n"))
+print("Input the number to find the factorial of")
+n = int(input())
 factorial=1
+for n in range(1, n+1):
+    factorial=factorial*n
 
-counter=1
-while counter<=num:
-	factorial=factorial*counter
-	counter=counter+1
-
-print("The factorial of "+str(num)+" is "+str(factorial))
+print("The factorial of", n, "is", factorial)
